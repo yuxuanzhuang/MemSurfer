@@ -165,6 +165,7 @@ if __name__ == '__main__' :
     LIBS_EXT = [os.path.basename(l) for l in LIBS_EXT]
     LIBS_EXT = [l[3:l.rfind('.')] for l in LIBS_EXT]
     LIBS_EXT.append('CGAL')
+    LIBS_EXT.append('gmp')
 
     # define the extension module
     EXT_MEM = Extension('_pymemsurfer',

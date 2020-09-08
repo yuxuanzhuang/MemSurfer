@@ -1,4 +1,9 @@
 ## MemSurfer, Version 1.0
+
+### Important Notes
+  - Must use python 3.7
+  - if with conda, run `install_deps.sh` in the env as well (for `vtk`)
+
 #### Released: Mar 23, 2020
 
 ##### Author: Harsh Bhatia (hbhatia@llnl.gov) and Peer-Timo Bremer
